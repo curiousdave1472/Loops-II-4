@@ -1,8 +1,8 @@
 //Assign the function
 function cumulativeSum(int){
     //Start sum from 0
- sum = 0;
-    for(let sum = 0; sum<int; sum++){
+ var sum = 0;
+    for(let i = 0; i<int; i++){
         sum = sum +1;
     }
     return sum;
